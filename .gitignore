@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+.venv-1/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Model and training outputs
+runs/
+*.pt
+*.weights
+*.onnx
+*.engine
+
+# Dataset artifacts
+data_split/
+*.cache
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
